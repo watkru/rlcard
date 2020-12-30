@@ -1,9 +1,10 @@
 from termcolor import colored
 
-class UnoCard(object):
+class TCGCard(object):
 
-    info = {'type':  ['number', 'action', 'wild'],
-            'color': ['r', 'g', 'b', 'y'],
+    info = {'type':  ['pokemon', 'trainer', 'energy'],
+            'subtype':  ['pokemon', 'supporter', 'item', 'stadium', 'basic', 'special'],
+            'element': ['fire', 'water', 'grass', 'electric', 'fighting', 'psychic', 'dark', 'metal', 'fairy'],
             'trait': ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
                       'skip', 'reverse', 'draw_2', 'wild', 'wild_draw_4']
             }
